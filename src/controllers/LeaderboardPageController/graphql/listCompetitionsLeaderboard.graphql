@@ -1,0 +1,25 @@
+query listCompetitionsLeaderboard($filter: AthleteFilter) {
+athletes(filter: $filter) {
+    id
+    firstname
+    lastname
+    box {
+      id
+      name
+      logo
+    }
+    competitionRanks {
+      id
+      rank
+      points
+      competition {
+        name
+      }
+    }
+    competitionRanksAggregate {
+      sum {
+        points
+      }
+    }
+  }
+}

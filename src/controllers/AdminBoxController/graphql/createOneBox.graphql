@@ -1,0 +1,5 @@
+mutation createOneBox($input: CreateOneBoxInput!) {
+    createOneBox(input: $input) {
+        id
+    }
+}

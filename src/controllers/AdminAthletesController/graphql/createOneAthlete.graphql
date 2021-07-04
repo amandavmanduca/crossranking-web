@@ -1,0 +1,5 @@
+mutation createOneAthlete($input: CreateOneAthleteInput!) {
+    createOneAthlete(input: $input) {
+        id
+    }
+}

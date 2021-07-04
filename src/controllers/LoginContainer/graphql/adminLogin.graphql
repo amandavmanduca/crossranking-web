@@ -1,0 +1,10 @@
+mutation adminLogin($data: AuthInput!) {
+    login(data: $data) {
+        admin {
+        id
+        name
+        email
+        }
+        token
+    }
+}

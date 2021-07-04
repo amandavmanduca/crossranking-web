@@ -1,0 +1,5 @@
+mutation deleteOneCompetition($input: DeleteOneInput!) {
+    deleteOneCompetition(input: $input) {
+        id
+    }
+}

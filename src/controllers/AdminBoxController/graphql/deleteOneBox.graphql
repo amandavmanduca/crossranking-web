@@ -1,0 +1,5 @@
+mutation deleteOneBox($input: DeleteOneInput!) {
+    deleteOneBox(input: $input) {
+        id
+    }
+}

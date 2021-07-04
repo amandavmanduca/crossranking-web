@@ -1,0 +1,52 @@
+query getCompetitionById($filter: CompetitionRankFilter!) {
+    competitionRanks(sorting: {field: rank, direction: ASC}, filter: $filter ) {
+        rank
+        id
+        points
+        athlete {
+            id
+            firstname
+            lastname
+            box {
+            id
+            name
+            logo
+            }
+        }
+    }
+    
+}
+# ALTERAR A QUERY PRA ESSA AQUI FILTRANDO O ID DA COMPETIÇÃO E O ID DA CATEGORIA
+# {
+#   competitionRanks(filter:
+#     {
+#       category: {name: {eq: "RX/M"}}
+#       competition: {name: {eq: "SuperGames"}}
+#     }
+#   ) {
+#     id
+#   }
+# }
+
+
+# query getCompetitionById($id: ID!) {
+#     competition(id: $id) {
+#         id
+#         name
+#         competitionRanks(sorting: {field: rank, direction: ASC} ) {
+#             rank
+#             id
+#             points
+#             athlete {
+#                 id
+#                 firstname
+#                 lastname
+#                 box {
+#                 id
+#                 name
+#                 logo
+#                 }
+#             }
+#         }
+#     }
+# }

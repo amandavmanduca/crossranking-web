@@ -1,0 +1,5 @@
+mutation addCompetitionsToAthlete($input: RelationsInput!) {
+    addCompetitionsToAthlete(input: $input) {
+        id
+    }
+}

@@ -1,0 +1,8 @@
+query getBoxById($id: ID!) {
+    box(id: $id) {
+        id
+        name
+        logo
+        city
+    }
+}

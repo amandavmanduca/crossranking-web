@@ -1,0 +1,6 @@
+query selectFilteredCompetitionsBySeason($filter: CompetitionFilter) {
+    competitions(filter: $filter) {
+        id
+        name
+    }
+}

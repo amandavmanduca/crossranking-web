@@ -1,0 +1,6 @@
+query listCompetitionsBySeason($filter: CompetitionFilter) {
+    competitions(filter: $filter) {
+        id
+        name
+    }
+}

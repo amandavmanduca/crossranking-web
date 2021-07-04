@@ -1,0 +1,20 @@
+query listAtletes($filter: AthleteFilter) {
+    athletes(filter: $filter) {
+        id
+        firstname
+        lastname
+        competitions {
+            id
+            name
+            season
+        }
+        box {
+            name
+            city
+            logo
+        }
+        category {
+            name
+        }
+  }
+}

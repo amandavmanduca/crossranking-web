@@ -1,0 +1,12 @@
+query listCompetitions {
+    competitions {
+        id
+        name
+        place
+        season
+        categories {
+            id
+            name
+        }
+    }
+}

@@ -1,0 +1,20 @@
+query listAllBoxes {
+    boxes {
+        id
+        name
+        city
+        logo
+        athletes {
+            firstname
+            lastname
+            category {
+                name
+            }
+        }
+        athletesAggregate {
+            count {
+                id
+            }
+        }
+    }
+}

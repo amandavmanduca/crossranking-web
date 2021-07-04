@@ -1,0 +1,25 @@
+query listFilteredAthletes($filter: AthleteFilter, $filterRank: CompetitionRankFilter) {
+    athletes(filter: $filter) {
+        id
+        firstname
+        lastname
+        category {
+            id
+        }
+        box {
+            id
+            name
+        }
+        competitionRanks(filter: $filterRank) {
+            id
+            points
+            rank
+            competition {
+                id
+            }
+            category {
+                id
+            }
+        }
+    }
+}

@@ -1,0 +1,311 @@
+{
+    "data": {
+      "boxes": [
+        {
+          "id": "8",
+          "name": "Box Teste",
+          "city": "Pelotas",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        },
+        {
+          "id": "3",
+          "name": "CrossFit BrotherHood",
+          "city": "Canoas/RS",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        },
+        {
+          "id": "2",
+          "name": "CrossFit Caxias do Sul",
+          "city": "Caxias do Sul/RS",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        },
+        {
+          "id": "5",
+          "name": "CrossFit Equifavela",
+          "city": "Porto Alegre/RS",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        },
+        {
+          "id": "6",
+          "name": "CrossFit Estância Velha",
+          "city": "Estância Velha/RS",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        },
+        {
+          "id": "4",
+          "name": "CT Bunker 1194",
+          "city": "São Leopoldo/RS",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        },
+        {
+          "id": "1",
+          "name": "Eros CrossFit",
+          "city": "Pelotas/RS",
+          "athletes": [
+            {
+              "lastname": "Melo",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Teixeira",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Paiva Filho",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Schneider",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Alves",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Bassani",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Silva",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Santiago",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Reis",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Machado",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Costa",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "da Rosa",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Dullius",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "Rocha",
+              "category": {
+                "name": "RX/M"
+              }
+            },
+            {
+              "lastname": "BENEDETTI",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "GRIGOL",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "HAUANNE",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "BARTH",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "CAPRA",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "VOITIKOSKI",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "PINHO",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "MARQUES",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "GUIMARARA",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "GIUSTO",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "MOTTA",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "MILANESI",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "QUADROS",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "FAORO",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "BELTRAME",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "LANZINI",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "MARTINS",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "MILACH",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "CENTENO",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "BORBA",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "FURIERI",
+              "category": {
+                "name": "RX/F"
+              }
+            },
+            {
+              "lastname": "MANDUCA",
+              "category": {
+                "name": "RX/F"
+              }
+            }
+          ],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 36
+            }
+          }
+        },
+        {
+          "id": "7",
+          "name": "Uberaba/PR",
+          "city": "Estivadores",
+          "athletes": [],
+          "athletesAggregate": {
+            "count": {
+              "firstname": 0
+            }
+          }
+        }
+      ]
+    }
+  }

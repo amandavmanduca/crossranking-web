@@ -1,0 +1,22 @@
+query listAthletesAdmin {
+    athletes {
+        id
+        firstname
+        lastname
+        competitions {
+            id
+            name
+            season
+        }
+        box {
+            id
+            name
+            city
+            logo
+        }
+        category {
+            id
+            name
+        }
+  }
+}

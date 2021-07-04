@@ -1,0 +1,5 @@
+mutation updateOneCompetition($input: UpdateOneCompetitionInput!) {
+    updateOneCompetition(input: $input) {
+        id
+    }
+}

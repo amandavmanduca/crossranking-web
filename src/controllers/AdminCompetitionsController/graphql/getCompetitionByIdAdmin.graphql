@@ -1,0 +1,12 @@
+query getCompetitionByIdAdmin($id: ID!) {
+    competition(id: $id) {
+        id
+        name
+        place
+        season
+        categories {
+            id
+            name
+        }
+    }
+}

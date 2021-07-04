@@ -1,0 +1,5 @@
+mutation removeCompetitionsFromAthlete($input: RelationsInput!) {
+    removeCompetitionsFromAthlete(input: $input) {
+        id
+    }
+}

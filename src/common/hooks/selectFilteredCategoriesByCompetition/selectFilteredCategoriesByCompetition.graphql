@@ -1,0 +1,6 @@
+query selectFilteredCategoriesByCompetition($filter: CategoryFilter) {
+    categories {
+        id
+        name
+    }
+}

@@ -1,0 +1,5 @@
+mutation createOneCompetitionRank($input: CreateOneCompetitionRankInput!) {
+    createOneCompetitionRank(input: $input) {
+        id
+    }
+}

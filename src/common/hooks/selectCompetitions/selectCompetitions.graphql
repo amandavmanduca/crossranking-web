@@ -1,0 +1,7 @@
+query selectCompetitions {
+    competitions {
+        id
+        name
+        season
+    }
+}

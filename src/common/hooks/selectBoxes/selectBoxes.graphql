@@ -1,0 +1,6 @@
+query selectBoxes {
+    boxes {
+        id
+        name
+    }
+}

@@ -1,0 +1,20 @@
+query getAthleteById($id: ID!) {
+    athlete(id: $id) {
+        id
+        firstname
+        lastname
+        category {
+            id
+            name
+        }
+        box {
+            id
+            name
+        }
+        competitions {
+            id
+            name
+            season
+        }
+    }
+}

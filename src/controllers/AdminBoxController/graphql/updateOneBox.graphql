@@ -1,0 +1,5 @@
+mutation updateOneBox($input: UpdateOneBoxInput!) {
+    updateOneBox(input: $input) {
+        id
+    }
+}
