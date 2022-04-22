@@ -10,7 +10,7 @@ export default function Title({title, fontWeight, fontSize, color}: Props) {
     const titleProps = {
         margin: 0,
         padding: 0,
-        fontFamily: "Open Sans",
+        fontFamily: "Roboto",
         fontWeight: fontWeight? fontWeight : 700,
         fontSize: fontSize ? fontSize : '15px',
         color: color ? color : ''

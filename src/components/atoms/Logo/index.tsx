@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../../assets/logo.png';
 
 const logoProps = {
-    width: 60,
+    width: 100,
     padding: '10px 0',
 }
 

@@ -6,7 +6,7 @@ export const StyledMenu = styled.div`
     height: 110px;
     padding: 20px 0px;
     width: 100%;
-    background-color: #0056b8;
+    background-color: #F28C28;
     display: flex;
     justify-content: space-between;
     align-content: center;
