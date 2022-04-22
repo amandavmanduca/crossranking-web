@@ -31,7 +31,7 @@ export default function HeaderRanking({
         borderBottom: 'solid white 2px',
     }
     
-    const categoriesList = categoriesArray?.map((category: {name: string, id: string}) => ({
+    const categoriesList = categoriesArray?.filter((c: any) => c.name !== 'RX/F' && c.name !== 'Amador/M').map((category: {name: string, id: string}) => ({
         label: category.name,
         value: category.id,
     }));

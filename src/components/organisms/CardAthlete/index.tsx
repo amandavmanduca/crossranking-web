@@ -79,11 +79,11 @@ export default function CardAthlete({
                 </section>
                 {competitions.length > 0 && (
                     <section style={section2Props}>
-                        <Title title='CAMPEONATOS' />
+                        <Title title='Workouts' />
                         <br></br>
                         <span>
                             {competitions?.map((competition: any) => (
-                                <Title key={competition?.id} title={competition?.name + '/' + competition.season} />
+                                <Title key={competition?.id} title={competition?.name} />
                             ))}
 
                         </span>

@@ -24,21 +24,21 @@ export default function HeaderSeason({
     }
     return (
         <div style={headerProps}>
-            {seasonYear !== null ? 
+            {/* {seasonYear !== null ? 
                 <SideButton
                     side={'left'}
                     size={20}
                     onClick={() => setSeasonYear(seasonYear-1)}
                 />
-            : null}
-            <MainTitle mainTitle={`CrossRanking ${seasonYear ? seasonYear : ''}`} />
-            {seasonYear !== null ? 
+            : null} */}
+            <MainTitle mainTitle={`Eros CrossFit Games #2`} />
+            {/* {seasonYear !== null ? 
                 <SideButton
                     side={'right'}
                     size={20}
                     onClick={() => setSeasonYear(seasonYear+1)}
                 />
-            : null}
+            : null} */}
         </div>
     );
 }

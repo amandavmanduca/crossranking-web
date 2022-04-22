@@ -48,7 +48,6 @@ export default function TableCompetitions({
 
     useEffect(() => {
         if(selectedCompetition !== '') {
-            console.log('oi')
             setSelectedCompetition(competitionsBySeason[0].id)
         }
     }, [competitionsBySeason]);
@@ -129,7 +128,12 @@ export default function TableCompetitions({
                             selectedCompetitionData?.map((competition: any) => (
                                 <tr key={competition.rank}>
                                     <td><Title title={competition.rank + 'º ('+competition.points+')'} /></td>
-                                    <td><Title title={competition.athlete.firstname} /></td>
+                                    <td>
+                                        <div>
+                                            <Title title={competition.athlete.firstname} />
+                                            <Title title={competition.athlete.lastname} />
+                                        </div>
+                                    </td>
                                     <td>
                                         <div style={boxColumn}>
                                             <Image
