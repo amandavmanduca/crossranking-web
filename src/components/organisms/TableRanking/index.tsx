@@ -86,8 +86,8 @@ export default function TableRanking({
                                     <td><Title title={(index+1) + 'º (' + Number(list.competitionRanksAggregate?.sum.points) + ')'} /></td>
                                     <td>
                                         <div>
-                                            <Title title={list.firstname + ' ' + list.lastname} />
-                                            <Title title={list.firstname + ' ' + list.lastname} />
+                                            <Title title={list.firstname} />
+                                            <Title title={list.lastname} />
                                         </div>
                                     </td>
                                     <td>
